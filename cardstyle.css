@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{ background: #19A1AE;
+ overflow: hidden;    
+}
+.conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.ball1{z-index: -1;
+  position: absolute;
+  margin: 10px;
+  right: 45%;
+  top: -100%;
+  height: 20px;
+}
+.ball2{
+  position: absolute;
+  margin: 100px;
+  left: 45%;
+  top: 45%;
+}
+
+.card 
+{
+height: 374px;
+width: 350px;
+ border-radius:5%;
+background-color: aliceblue;
+
+}
+.foni{
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
+}
+.zangi{
+  border:  solid rgb(247, 247, 247);
+  border-radius: 50%;
+  margin-top: -15%;
+}
+.victor{
+  
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(46, 51, 73, 1);
+
+}
+h3{
+  position: absolute;
+height: 19px;
+left: 11.33%;
+right: 0.37%;
+top: calc(55.5% - 18px/2 - 2.5px);
+color: #6B7082;
+font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+}
+p{
+  margin: 10px;
+ color: #6B7082;
+}
+.folower{
+   
+  margin: 35px;
+  display: flex;
+  justify-content: space-between;
+  color:rgba(46, 51, 73, 1);
+  font-style: normal;
+
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center
+}
+
+.like{
+ 
+left: 30%;
+display: flex;
+justify-content:space-between;
+color:rgba(107, 112, 130, 1);
+font-style: normal;
+
+font-size: 12px;
+line-height: 12px;
+text-align: center;
+letter-spacing: 1.5px;
+
+}
+h5{
+  padding: 10%;
+  margin-top:  -50px; 
+}
